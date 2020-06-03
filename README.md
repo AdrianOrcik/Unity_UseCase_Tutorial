@@ -33,22 +33,22 @@ Demo Gameplay <br>
 :pushpin: How these thigs works?
 ---------
 **Tutorial Editor** <br> 
-Using reflection by TActionReflect from the tutorial system and provide an interface for setup data with ability of easy exporting
+Using reflection by TActionReflect from the tutorial system and provide an interface for setup data with ability of easy JSON export.
 
 **Tutorial Trigger / Tutorial Handler** <br>
-Taking care about prefabs management and setup whole actions for a tutorial module which will be using during the gameplay
+Taking care about prefabs management and setup whole actions for a tutorial which will be in usage during the gameplay.
 
 **Entity Database** <br>
-During the game is starting whole entities are assigned into a central database and use later in the tutorial
+On the beggining of the game are game entitties assigned into a central object database and ready for later usage.
 
 **ExecutionManager** <br>
-Manage whole tutorial execution logic, creating action by a component system which provide game mechanics
+Manage whole tutorial execution logic, creating action by a component system which provide game mechanics.
 
 **Components** <br>
-The tutorial contains several components, each component has specialization on something different (Camera, GameData, UI)
+The tutorial contains several components, each component has own specialization with focus on modularity (Camera, GameData, UI).
 
 **TActionBase / TActionReflect** <br>
-Component reflect subsystem which provides reflection data about components for editor tool and later read data from JSON and generating game actions
+Component reflect subsystem which provides reflection data about components for editor tool, later read data from JSON and generate game actions.
 
 :package: Package to download
 ---------
